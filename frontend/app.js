@@ -1,6 +1,6 @@
 ﻿"use strict";
 
-const DEPLOYED_API_BASE = "https://heon55-pickture.hf.space";
+const DEPLOYED_API_BASE = "https://xiajonghwa-se-team-fineapple.hf.space";
 const LOCAL_HOSTS = new Set(["", "localhost", "127.0.0.1"]);
 const API_BASE = LOCAL_HOSTS.has(window.location.hostname) ? "" : DEPLOYED_API_BASE;
 
